@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav class="header">
+        <ul class="side-bar">
+            <li onclick="hide()"><i class="fa-solid fa-xmark"></i></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#my-self">About</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul>
+            <li>DHANUSH</li>
+            <li class="hiedeOnMobile"><a href="index.html">Home</a></li>
+            <li class="hiedeOnMobile"><a href="#my-self">About</a></li>
+            <li class="hiedeOnMobile"><a href="#Projects">Projects</a></li>
+            <li class="hiedeOnMobile"><a href="#contact">Contact</a></li>
+            <li onclick="show()" class="menu-bar"><a href="#"><i class="fa-solid fa-bars"></i></a></i></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="Home">
+            <div class="intro">
+                <h1>Hi, </h1>
+                <h1>Im Dhanush</h1>
+                <h2>Im a Web Devepler</h2>
+                <button onclick="downloadCV()">Download CV</button>
+            </div>
+            <div class="Photo">
+                <img src="my pic.jpg" height="400" width="400">
+            </div>
+        </div>
+        <div class="logos">
+            <ul>
+                <li><a href="https://github.com/dhanxsh"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/dhanush58/"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </main>
+    <section id="my-self">
+        <div class="my-self">
+
+            <h1>ABOUT ME</h1>
+
+            <p>My name is Dhanush, and I am currently pursuing a Bsc in computer science at VIT Vellore. As a passionate
+                front-end web developer, I have hands-on experience with HTML, CSS and JavaScript.I enjoy building
+                responsive web interfaces, focusing on delivery seamless user experience. Constantly learning and
+                refining
+                my skills, Im eager to explore new technologies and contributed to innovative projects.
+            </p>
+
+
+
+            <ul class="skills">
+                <h3>Skills :</h3>
+
+                <li class="skill">HTML</li>
+                <li class="skill">CSS</li>
+                <li class="skill">JavaScript</li>
+                <li class="skill">php</li>
+                <li class="skill">Java</li>
+                <li class="skill">C++</li>
+                <li class="skill">C</li>
+                <li class="skill">python</li>
+                <li class="skill">SQL</li>
+                <li class="skill">MangoDB</li>
+
+            </ul>
+        </div>
+    </section>
+
+    <section id="Projects">
+
+        <div class="projects">
+            <h1>PROJECTS</h1>
+            <p>These are some of my projects. I have built these with HTML, CSS and JavaScript.</p>
+
+            <div class="project-list">
+                <div class="project">
+                    <p>
+                    <h3>Project 1</h3>
+                    </p>
+                    <p><img src="prj 1.png" height="200" width="200"></p>
+                    <p>Simple and responsive E-commerce website</p>
+
+                    <p> <a href="https://mistra-online-0058.netlify.app/">Click here to veiw</a></p>
+                </div>
+                <div class="project">
+                    <p>
+                    <h3>Project 2</h3>
+                    </p>
+                    <p><img src="prj 2.png" height="200" width="200"></p>
+                    <p>To-Do List Project</p>
+                    <p> <a href="https://to-do-list-5172b8.netlify.app/">Click here to veiw</a></p>
+                </div>
+                <div class="project">
+                    <p>
+                    <h3>Project 3</h3>
+                    </p>
+                    <p><img src="prj 3.png" height="200" width="200"></p>
+                    <p>Simple JavaScript project</p>
+                    <p> <a href="https://booksky-on.netlify.app/">Click here to veiw</a></p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact">
+       <div class="contact">
+         <h1>CONTACT</h1>
+        <p>Dhanush.G</p>
+        <p> <b>Email :</b> dhanushgnanapraksam@gmail.com</p>
+        <p> <b>Phone No :</b> 6379006750</p>
+       </div>
+    </section>
+    <section>
+        <div class="footer">
+            <div>@ DHANUSH 2025</div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
